@@ -1,0 +1,21 @@
+react native navigation
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native-stack
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+const Stack = createNativeStackNavigator();
+function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={HomeScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
+Truyền dữ liệu or chuyển qua các màn hình trong react natrive
+import touchOpacity
+const App=({route,navigation})
+Icon trong react native
+import { FontAwesome, FontAwesome5 } from "@expo/vector-icons";
