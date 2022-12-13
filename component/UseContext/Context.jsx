@@ -11,7 +11,6 @@ const Context = ({ children }) => {
             })
             .catch(err => console.log(err))
     }, [])
-
     return (
         <MyData.Provider value={{list}}>
             {children}
