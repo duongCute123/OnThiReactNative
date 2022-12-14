@@ -19,3 +19,5 @@ import touchOpacity
 const App=({route,navigation})
 Icon trong react native
 import { FontAwesome, FontAwesome5 } from "@expo/vector-icons";
+sử dụng background trong react native
+import { ImageBackground } from 'react-native';
